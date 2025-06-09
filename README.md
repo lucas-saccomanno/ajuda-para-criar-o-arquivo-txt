@@ -1,0 +1,1 @@
+# ajuda-para-criar-o-arquivo-txt
