@@ -4,6 +4,28 @@ Este projeto permite enviar e-mails personalizados para uma lista de clientes us
 
 ---
 
+## Configuração do e-mail remetente e servidor SMTP
+
+Você pode usar **qualquer tipo de e-mail** (Gmail, Outlook, Yahoo, empresa, etc). Para isso, é necessário configurar corretamente:
+
+- **E-mail remetente**: seu endereço de e-mail completo.
+- **Senha**: pode ser sua senha normal ou uma senha de app (recomendada para Gmail com 2FA).
+- **Servidor SMTP**: endereço do servidor SMTP do seu provedor (ex: `smtp.gmail.com`, `smtp.office365.com`, etc).
+- **Porta SMTP**: geralmente `587` para TLS, `465` para SSL, ou outra porta definida pelo provedor.
+- **Tipo de conexão**: TLS, SSL ou sem criptografia.
+
+---
+
+## Sobre a senha de app
+
+- Para contas Gmail com verificação em duas etapas (2FA), você deve usar uma **senha de app** gerada no painel do Google.  
+- Para outros provedores, consulte o administrador ou o suporte para saber se precisa usar senha de app ou senha normal.
+
+Tutorial para gerar senha de app no Gmail:  
+[https://support.google.com/mail/answer/185833?hl=pt-BR](https://support.google.com/mail/answer/185833?hl=pt-BR)
+
+---
+
 ## Como escrever o arquivo TXT do template para envio de e-mails
 
 O arquivo `.txt` funciona como um modelo para o e-mail, onde você pode colocar variáveis que serão substituídas pelos dados de cada cliente.
@@ -13,13 +35,9 @@ O arquivo `.txt` funciona como um modelo para o e-mail, onde você pode colocar 
 1. **Primeira linha:** título (assunto) do e-mail.  
 2. **Demais linhas:** corpo do e-mail.
 
----
-
 ### Personalização com variáveis
 
 Você pode usar variáveis dentro de `{{` e `}}`, que devem corresponder aos nomes das colunas na planilha Excel.
-
----
 
 ### Exemplo de `template.txt`
 
@@ -36,22 +54,6 @@ Equipe XYZ
 
 ---
 
-### Como funciona
-
-- O programa substitui as variáveis pelo conteúdo da planilha para cada cliente.  
-- O título (primeira linha) vira o assunto do e-mail.  
-- O corpo (linhas seguintes) vira a mensagem do e-mail.
-
----
-
-### Dicas importantes
-
-- As variáveis `{{variavel}}` devem bater exatamente com o nome das colunas do Excel.  
-- Salve o arquivo `.txt` em UTF-8 para evitar problemas com caracteres especiais.  
-- Não use espaços dentro das chaves, ex: `{{nome}}` é correto, `{{ nome }}` pode causar erro.
-
----
-
 ## Estrutura da planilha Excel
 
 - A planilha deve conter uma coluna `email` com os e-mails dos destinatários.  
@@ -61,7 +63,7 @@ Equipe XYZ
 
 ## Como usar
 
-1. Configure seu e-mail e senha de app no script (para Gmail, veja como gerar a senha de app no [tutorial oficial](https://support.google.com/mail/answer/185833?hl=pt-BR)).  
+1. Configure seu e-mail, senha, servidor SMTP, porta e tipo de conexão na interface ou no script.  
 2. Coloque o arquivo `template.txt` e a planilha `.xlsx` na mesma pasta do script.  
 3. Execute o script para enviar os e-mails personalizados.
 
