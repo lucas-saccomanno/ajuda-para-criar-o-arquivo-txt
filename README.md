@@ -21,8 +21,10 @@ Você pode usar **qualquer tipo de e-mail** (Gmail, Outlook, Yahoo, empresa, etc
 - Para contas Gmail com verificação em duas etapas (2FA), você deve usar uma **senha de app** gerada no painel do Google.  
 - Para outros provedores, consulte o administrador ou o suporte para saber se precisa usar senha de app ou senha normal.
 
-Tutorial para gerar senha de app no Gmail:  
+Tutorial para gerar senha de app no Gmail:
 [https://support.google.com/mail/answer/185833?hl=pt-BR](https://support.google.com/mail/answer/185833?hl=pt-BR)
+Link para a criaçâo da senha:
+[https://myaccount.google.com/apppasswords?continue=https://myaccount.google.com/?hl%3Dpt_BR%26utm_source%3DOGB%26utm_medium%3Dact%26gar%3DWzEyMF0&rapt=AEjHL4M-FVCKwwJakvEFvQEpf03dw5cnvYQkSnZMSUu4OM1J_w5vquJ2HPpYLqUpBaisZdn9PujXenSwZDemRhjbcn5ncF3-I0Fr-122KtmJK9OnwN9cPbI](https://myaccount.google.com)
 
 ---
 
