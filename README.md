@@ -24,7 +24,7 @@ Você pode usar **qualquer tipo de e-mail** (Gmail, Outlook, Yahoo, empresa, etc
 Tutorial para gerar senha de app no Gmail:
 [https://support.google.com/mail/answer/185833?hl=pt-BR](https://support.google.com/mail/answer/185833?hl=pt-BR)
 Link para a criaçâo da senha:
-[https://myaccount.google.com](https://myaccount.google.com](https://myaccount.google.com/apppasswords?continue=https://myaccount.google.com/?hl%3Dpt_BR%26utm_source%3DOGB%26utm_medium%3Dact%26gar%3DWzEyMF0&rapt=AEjHL4M-FVCKwwJakvEFvQEpf03dw5cnvYQkSnZMSUu4OM1J_w5vquJ2HPpYLqUpBaisZdn9PujXenSwZDemRhjbcn5ncF3-I0Fr-122KtmJK9OnwN9cPbI))
+[https://myaccount.google.com](https://myaccount.google.com/apppasswords?continue=https://myaccount.google.com/?hl%3Dpt_BR%26utm_source%3DOGB%26utm_medium%3Dact%26gar%3DWzEyMF0&pli=1&rapt=AEjHL4P35KAhKPXY4yQs2YwpRBpWDHruGVXOsZdGFf1MhydOAb54JIRNfFFOdEaAYSx1zQ7z2_Jsd_zURWnxPqCX35YSTlo00N_NFRTToOT-lhULfAavGvE)
 
 ---
 
